@@ -1,0 +1,6 @@
+# Copyright (c) 2022 Thomas Bittner
+# SPDX-License-Identifier: MIT
+
+
+config SHIELD_ATREUS
+	def_bool $(shields_list_contains,atreus)
